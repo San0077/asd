@@ -40,8 +40,8 @@ const ProjectsPreviewData = [
     img: mobile,
     name: "Forkify Recipes",
     stack: ["< HTML5 />", "< CSS3 />", "< RESTful API />"],
-    src: "https://forkify-recipe-api.vercel.app/",
-    source: "https://github.com/catherineisonline/forkify",
+    src: "https://62de44cc3f875f078a86b631--subtle-sprinkles-2211e1.netlify.app/",
+    source: "https://github.com/San0077/movv",
     description:
       "It is simply mobile booking app,which you can add your mobile to ADDCART and you can buy your mobile with your time flexiability",
   },
