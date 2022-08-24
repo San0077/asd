@@ -1,5 +1,5 @@
 import DownloadIcon from "../../images/download-icon.png";
-import Resume from "../../images/SANTHOSH C.pdf";
+import Resume from "../../images/SanthoshR.pdf";
 const DownloadResume = () => {
   return (
     <section>
