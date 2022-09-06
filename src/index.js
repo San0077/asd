@@ -9,8 +9,9 @@ import Navigation from "./components/navigation/Navigation.js";
 import About from "./components/About/About";
 import Portfolio from "./components/portfolio/Portfolio.js";
 import Contact from "./components/contact/Contact.js";
-
+import App from "./App.js"
 import reportWebVitals from "./reportWebVitals"; 
+import Stack from "./components/About/Stack.js"
 
 const container = document.getElementById("root");
 const root = createRoot(container);
@@ -21,9 +22,11 @@ root.render(
       <Route path="/" element={<Landing />} />
       <Route path="/about" element={<About />} />
       <Route path="/portfolio" element={<Portfolio />} />
+      <Route path="/stack" element={<Stack />} />
       <Route path="/contact" element={<Contact />} />
     </Routes>
   </Router>
+  
 );
 
 reportWebVitals();

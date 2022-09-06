@@ -14,7 +14,7 @@ const NavigationMenu = () => {
           HideMenu();
         }}
       >
-        Main
+        Home
       </NavLink>
       <NavLink
         to="/about"
@@ -29,6 +29,18 @@ const NavigationMenu = () => {
         About
       </NavLink>
       <NavLink
+        to="/stack"
+        onClick={() => {
+          ResetLocation();
+          HideMenu();
+        }}
+        className={({ isActive }) =>
+          "gray-text nav-link" + (isActive ? " active" : "")
+        }
+      >
+        Skills
+      </NavLink>
+      <NavLink
         to="/portfolio"
         className={({ isActive }) =>
           "gray-text nav-link" + (isActive ? " active" : "")
@@ -38,7 +50,7 @@ const NavigationMenu = () => {
           HideMenu();
         }}
       >
-        Portfolio
+        Project
       </NavLink>
       <NavLink
         to="/contact"

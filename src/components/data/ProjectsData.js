@@ -1,8 +1,9 @@
 import PizzaTime from "../../images/PizzaTime.jpeg";
-import ticket from "../../images/21246.jpg";
-import aws from "../../images/aws.jpg";
-import mobile from "../../images/4307057.jpg";
-import stutech from "../../images/stutech.jpg";
+import ticket from "../../images/cinema-ticket-1075066.png";
+import aws from "../../images/san.jpg";
+import mobile from "../../images/whats.png";
+import stutech from "../../images/books-5171820.png";
+import pizza from "../../images/pizza.jpg";
 
 const ProjectsPreviewData = [
   {
@@ -10,8 +11,9 @@ const ProjectsPreviewData = [
     img: ticket,
     name: "Ticket booking",
     stack: ["< React.js />", "< CSS3 />",],
-    src: "https://splendorous-salamander-f51d81.netlify.app/",
+    src: "https://631761aaea9ff21f1e2eaa51--benevolent-elf-48978c.netlify.app/",
     source: "https://github.com/San0077/mypro",
+    backend:"https://github.com/San0077/hackthon-backend",
     description:
       "You can book your tickets or whatever from wherever you are.You are not required to go in person to the place which is far away from your zone to booking purposes. You can check the availability of the seats or products or anything.It is time saving and quicker than eve",
   },
@@ -22,6 +24,7 @@ const ProjectsPreviewData = [
     stack: ["< React.js />", "< Node.js />"],
     src: "	https://62ea52db133fea154454ba05--mellifluous-meringue-067647.netlify.app/",
     source: "	https://github.com/San0077/capstone-frontend",
+    backend:"https://github.com/San0077/capstone-backend",
     description:
       "I have cloned the AWS polymer search, here you can search what ever like in real AWS ploymer search ",
   },
@@ -38,12 +41,24 @@ const ProjectsPreviewData = [
   {
     id: 4,
     img: mobile,
-    name: "Forkify Recipes",
+    name: "Personal Chat app",
     stack: ["< HTML5 />", "< CSS3 />", "< RESTful API />"],
-    src: "https://62de44cc3f875f078a86b631--subtle-sprinkles-2211e1.netlify.app/",
-    source: "https://github.com/San0077/movv",
+    src: "https://charming-sprinkles-819e65.netlify.app/",
+    source: "https://github.com/San0077/chat-frontend",
+    backend: "https://github.com/San0077/chat-back",
     description:
-      "It is simply mobile booking app,which you can add your mobile to ADDCART and you can buy your mobile with your time flexiability",
+      "It is simple personal chating app, Here you can chat with who have the same Room id, the chats are deleted after you disconnected the page and you are safe and secure.",
+  },
+  {
+    id: 5,
+    img: pizza,
+    name: "Pizza booking app",
+    stack: ["< HTML5 />", "< CSS3 />", "< RESTful API />"],
+    src: "https://dapper-tulumba-fba556.netlify.app/",
+    source: "https://github.com/San0077/pizzab",
+    backend: "https://github.com/San0077/pizza-backend",
+    description:
+      "It is simple pizza booking app You can add and order your pizza which you like in this app you can pay by Google pay option.",
   },
 ];
 

@@ -8,7 +8,7 @@ const PortfolioPreview = () => {
   return (
     <article className="portfolio">
       <section className="portfolio-text">
-        <h2 className="title-font pink-text h2-tag">My Portfolio</h2>
+        <h2 className="title-font pink-text h2-tag">My Project</h2>
         <p className="white-text p-tag">
           I have spent a lot of time on different projects. I love doing
           everything from scratch. Here are some of my favorite ones which sum

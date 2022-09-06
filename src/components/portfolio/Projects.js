@@ -27,6 +27,9 @@ const Projects = () => {
               <a href={project.source} target="_blank" rel="noreferrer">
                 <img src={GithubRepo} alt=""></img>
               </a>
+              {project.backend ?<a href={project.backend} target="_blank" rel="noreferrer">
+                <img src={GithubRepo} alt=""></img>
+              </a>:""}
             </section>
           </section>
         </section>

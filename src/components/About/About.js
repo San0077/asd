@@ -17,7 +17,6 @@ const About = () => {
       <WorkExperience />
       <Education />
       <Languages />
-      <DownloadResume />
       <Certifications />
       <Footer />
     </article>

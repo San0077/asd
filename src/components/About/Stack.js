@@ -1,9 +1,12 @@
+//import { height, width } from "@mui/system";
+
 const Stack = () => {
+  
   return (
     <>
-      <h3 className="title-font white-text ">
-        Here are a few tools & technologies I’ve been working with:
-      </h3>
+     
+      <h2 className="title-font pink-text h2-tag">Skills</h2>
+
       <ol className="stack-section ">
         <li>HTML5</li>
         <li>CSS3</li>

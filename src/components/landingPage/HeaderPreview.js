@@ -8,7 +8,7 @@ const HeaderPreview = () => {
         <em className="pink-text">Santhosh</em>
         <br></br>web developer
       </h1>
-      <p className="gray-text p-tag">full stack Development</p>
+      <p className="gray-text p-tag">Full stack Development</p>
      
     </article>
   );

@@ -1,0 +1,8 @@
+.crendential{
+    display: flex;
+    flex-direction: row;
+    gap:50px
+}
+.title{
+    color:#fd1056
+}
