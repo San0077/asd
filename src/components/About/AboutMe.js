@@ -1,3 +1,4 @@
+import DownloadResume from "./DownloadResume"
 const AboutMe = () => {
   return (
     <section>
@@ -11,7 +12,9 @@ const AboutMe = () => {
         situations, and my desire to learn quickly adapts me to changing
         situations.
       </p>
+      <DownloadResume/>
     </section>
+      
   );
 };
 export default AboutMe;

@@ -6,11 +6,14 @@ const ProjectsPreview = () => {
   return (
     <section className=" portfolio-grid">
       {ProjectsPreviewData.map((project, index) => (
+        <div>
+          <p className="title-font pink-text p-tag ">{project.name}</p>
         <section key={index} className="project">
-          <section className="project-image-cover">
+           <section className="project-image-cover">
             <img src={project.img} alt="" className="project-img"></img>
           </section>
           <section className="project-description">
+          
             <p className="white-text p-tag">{project.description}</p>
             <section className="project-meta-stack ">
               {project.stack.map((stackName, index) => (
@@ -30,7 +33,9 @@ const ProjectsPreview = () => {
             </section>
           </section>
         </section>
+        </div>
       ))}
+      
     </section>
   );
 };
