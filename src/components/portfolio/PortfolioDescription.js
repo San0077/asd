@@ -19,7 +19,7 @@ const PortfolioDescription = () => {
           </a>
         </span>
       </p>
-      <h2 className="title-font pink-text h2-tag">Credencial</h2>
+      <h2 className="title-font pink-text h2-tag">Credentials</h2>
       <div className="crendential">
       <p className="white-text p-tag">
       <article className="title">For User</article>
