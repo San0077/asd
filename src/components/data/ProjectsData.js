@@ -10,7 +10,7 @@ const ProjectsPreviewData = [
     id: 1,
     img: ticket,
     name: "Ticket booking",
-    stack: ["< React.js />", "< CSS3 />",],
+      stack: ["< React.js />", "< CSS3 />",],
     src: "https://631761aaea9ff21f1e2eaa51--benevolent-elf-48978c.netlify.app/",
     source: "https://github.com/San0077/mypro",
     backend:"https://github.com/San0077/hackthon-backend",

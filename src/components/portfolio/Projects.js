@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <section className="portfolio-grid">
       {ProjectsPreviewData.map((project) => (
-       
+       <div><p className="title-font pink-text p-tag ">{project.name}</p>
         <section className="project">
           
           <section className="project-image-cover">
@@ -33,6 +33,7 @@ const Projects = () => {
             </section>
           </section>
         </section>
+        </div>
       ))}
     </section>
   );
