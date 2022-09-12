@@ -35,6 +35,7 @@ const ProjectsPreviewData = [
     stack: ["< RESTful API />", "< CSS3 />", "< React.js />"],
     src: "https://preeminent-naiad-e66067.netlify.app/",
     source: "https://github.com/San0077/student-and-teacher-dashboard",
+    backend: "https://github.com/San0077/student-teacher-backend",
     description:
       "In this webapplication a student can interact with teacher and a student a get study material from this website and daily class updates , teacher is provideing the new courses to the student",
   },
